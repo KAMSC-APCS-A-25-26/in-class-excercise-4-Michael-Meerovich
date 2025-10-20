@@ -15,7 +15,7 @@ public class ShoppingCart {
             System.out.print ("Price of item " + k + "? ");
             price += sc.nextDouble();
         }
-        System.out.print("Your cart has 3 items with a total cost of $" + price);
+        System.out.print("Your cart has " + numruns + " items with a total cost of $" + price);
         // TODO: Accumulate the total cost
         // TODO: Print the final summary line with item count and total
         // TODO: Use Scanner for input
